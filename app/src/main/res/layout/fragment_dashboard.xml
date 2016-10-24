@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_120"
+    android:background="@android:color/white">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/main_header"
+        android:id="@+id/dashboard_bg" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/dashboard_centers"
+            android:layout_width="@dimen/width_170"
+            android:layout_height="@dimen/height_70">
+
+            <View
+                android:id="@+id/dashboard_home_centers"
+                android:layout_width="@dimen/width_150"
+                android:layout_height="@dimen/height_75"
+                android:layout_margin="8dp"
+                android:background="@drawable/view_background" />
+
+            <ImageView
+                android:id="@+id/dashboard_home_centers_icon"
+                android:layout_width="@dimen/width_50"
+                android:layout_height="@dimen/height_75"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:contentDescription="@string/messages"
+                android:padding="@dimen/margin_12"
+                android:src="@drawable/dashboard_map"
+                android:tint="@color/separator" />
+
+            <TextView
+                android:id="@+id/dashboard_home_centers_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_15"
+                android:layout_toRightOf="@+id/dashboard_home_centers_icon"
+                android:gravity="center_vertical"
+                android:text="@string/dashboard_centers_text" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/dashboard_messages"
+            android:layout_width="@dimen/width_170"
+            android:layout_height="@dimen/height_70">
+
+            <View
+                android:id="@+id/dashboard_home_message"
+                android:layout_width="@dimen/width_150"
+                android:layout_height="@dimen/height_75"
+                android:layout_margin="@dimen/margin_8"
+                android:background="@drawable/view_background" />
+
+            <ImageView
+                android:id="@+id/dashboard_home_message_icon"
+                android:layout_width="@dimen/width_50"
+                android:layout_height="@dimen/height_75"
+                android:layout_marginLeft="@dimen/margin_5"
+                android:contentDescription="@string/messages"
+                android:padding="@dimen/margin_12"
+                android:src="@drawable/dashboard_email"
+                android:tint="@color/separator" />
+
+            <TextView
+                android:id="@+id/dashboard_home_message_text"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="@dimen/margin_15"
+                android:layout_toRightOf="@+id/dashboard_home_message_icon"
+                android:gravity="center_vertical"
+                android:text="@string/inbox_caps" />
+
+            <RelativeLayout
+                android:id="@+id/badge_holder"
+                android:layout_width="@dimen/badge_width"
+                android:layout_height="@dimen/badge_height"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true">
+
+                <ImageView
+                    android:id="@+id/badge_bg"
+                    android:layout_width="@dimen/width_30"
+                    android:layout_height="@dimen/height_30"
+                    android:contentDescription="@string/badge"
+                    android:src="@drawable/badge" />
+
+                <TextView
+                    android:id="@+id/badge_count"
+                    android:layout_width="@dimen/width_30"
+                    android:layout_height="@dimen/height_30"
+                    android:layout_centerInParent="true"
+                    android:gravity="center"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/text_body1"
+                    android:textStyle="normal" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

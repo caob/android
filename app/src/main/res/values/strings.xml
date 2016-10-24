@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Poc</string>
+
+    <!--Navigation Drawer-->
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+
+    <!--Buttons-->
+    <string name="button_continue">CONTINUAR</string>
+    <string name="button_accept">ACEPTAR</string>
+    <string name="button_login_phone">VALIDAR TELEFONO</string>
+
+    <!--OnBoarding-->
+    <string name="on_boarding_legal_title">Legales</string>
+    <string name="on_boarding_login_title">Verificación de número</string>
+    <string name="on_boarding_profile_title">Completar Perfil</string>
+
+    <!--Home-->
+    <string name="about_call_eleven">LLAMAR *111</string>
+    
+    <!--Number Verification-->
+    <string name="phone_legend"><b>POC app</b> te enviará un SMS para\nverificar tu número de teléfono.</string>
+
+    <!--About us-->
+    <string name="about_legend"><b>POC app</b> es una aplicación del\nGrupo Telecom.</string>
+    <!-- Recycler Item - Centers -->
+    <string name="centers_item_type_text" formatted="false">Tipo: %1$s</string>
+    <string name="centers_item_state_text" formatted="false">Provincia: %1$s</string>
+
+    <!--Progress Dialog-->
+    <string name="centers_progress_title">CENTROS DE ATENCIÓN</string>
+    <string name="centers_progress_message">Cargando centros&#8230;</string>
+
+    <string name="login_progress_title">ACTUALIZANDO</string>
+    <string name="login_progress_message">Actualizando datos&#8230;</string>
+
+    <string name="notifications_progress_title">NOTIFICACIONES</string>
+    <string name="notifications_progress_message">Cargando notificaciones&#8230;</string>
+
+    <!--Lorem Ipsum-->
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.\n\nNulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.\n\nVivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus.\n\nMaecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna</string>
+
+    <!--DAO Data Access-->
+    <string name="data_need_connection">Debes tener conexión de datos para realizar esta acción</string>
+    <string name="data_need_subscription">Debes configurar por lo menos una notificación</string>
+    <string name="splash_background">Splash Background</string>
+    <string name="splash_logo">Splash Logo</string>
+    <string name="legal_header">Legal Header</string>
+
+    <!--Login User-->
+    <string name="male">Masculino</string>
+    <string name="female">Femenino</string>
+
+    <string name="year">Año</string>
+    <string name="month">Mes</string>
+    <string name="day">Dia</string>
+
+    <string name="your_lastname">Tu Apellido</string>
+    <string name="your_name">Tu Nombre</string>
+
+    <!--Titles-->
+    <string name="home">Home</string>
+    <string name="messages">Mensajes</string>
+    <string name="centers_title">Centros de Atención</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="inbox">Inbox</string>
+    <string name="profile">Perfil</string>
+    <string name="about">Acerca de</string>
+    <string name="more_apps">Mas apps</string>
+    <string name="logout">Logout</string>
+
+    <!--Error Message-->
+    <string name="error_message">Este campo es obligatorio</string>
+
+    <string name="version_name" formatted="false">Version: %1$s</string>
+    <string name="phone_format" formatted="false">tel:%1$s</string>
+
+    <string name="call_111">*111</string>
+
+    <string name="avatar">Avatar</string>
+    <string name="name_format">%1$s %2$s</string>
+    <string name="empty"> </string>
+
+    <string name="badge">Badge</string>
+
+    <string name="header_background">Header Background</string>
+    <string name="dashboard_centers_text">CENTROS\nDE ATENCION</string>
+    <string name="inbox_caps">INBOX</string>
+
+    <!--Notification category type-->
+    <string name="notification_about_app">Información sobre la app</string>
+    <string name="notification_promotion">Promociones</string>
+    <string name="notification_news">Noticias</string>
+    <string name="about_call_legend">Comunicate con nuestro centro de soporte</string>
+    <string name="about_version">Versión</string>
+
+    <string name="map_icon">Map Icon</string>
+
+    <!--Header Settings-->
+    <string name="centers_settings">Centers Settings</string>
+    <string name="inbox_settings">Inbox Settings</string>
+    <string name="profile_settings">Ir a Configuración de Perfil</string>
+
+    <!--Centers Details-->
+    <string name="centers_detail_distance" formatted="false"><b>Distancia:</b> %1$s</string>
+    <string name="centers_detail_address" formatted="false"><b>Dirección:</b> %1$s</string>
+    <string name="centers_detail_attention" formatted="false"><b>Horarios:</b> %1$s</string>
+    <string name="notification_config">Configuración de Notificaciones</string>
+</resources>

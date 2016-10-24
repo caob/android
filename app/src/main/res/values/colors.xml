@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#EFB805</color>
+    <color name="colorPrimaryDark">#E0A904</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="splash_background">#EFB805</color>
+
+    <color name="soft_gray">#CCCCCC</color>
+
+    <color name="separator">#AAAAAA</color>
+
+    <color name="separator_big">#F8F6F8</color>
+
+    <color name="distance_bg">#F8F6F8</color>
+
+    <color name="soft_dark_text">#909090</color>
+
+    <color name="button_color_bg">#F0B900</color>
+    <color name="button_color_cancel">#EFEFEF</color>
+
+    <color name="button_color_cancel_text">#C5C7C5</color>
+
+    <color name="notifications_about_app">#D22581</color>
+    <color name="notifications_promotion">#00BD39</color>
+    <color name="notifications_news">#46B6FC</color>
+</resources>

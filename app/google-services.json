@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "412403989437",
+    "firebase_url": "https://notipoc.firebaseio.com",
+    "project_id": "notipoc",
+    "storage_bucket": "notipoc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:412403989437:android:3c6ce7d7cf7979af",
+        "android_client_info": {
+          "package_name": "com.ergo.poc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "412403989437-7pketvh3mvqol57idv2jelg7dgo2kgr4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaOGbPtVTB8NiARLJFeHk0c3JSxg_pO0o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
